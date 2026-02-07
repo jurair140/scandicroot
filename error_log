@@ -1,0 +1,56 @@
+[15-Jun-2023 01:50:47 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 01:51:06 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 01:51:27 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 01:57:23 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 02:01:43 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 02:02:22 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196
+[15-Jun-2023 02:05:39 America/Chicago] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php:2196
+Stack trace:
+#0 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(2003): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1662): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 15 J...', '<img src="https...')
+#2 /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php(1500): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home2/lumia28z/scandicroot.com/mail.php(58): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home2/lumia28z/scandicroot.com/phpmailer/src/PHPMailer.php on line 2196

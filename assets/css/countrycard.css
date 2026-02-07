@@ -1,0 +1,33 @@
+ .select-country-area .container .country-round {
+    position: absolute;
+    top: 225px;
+    right: 100px;
+    
+    height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 auto;
+        border: 5px solid #fff;
+        box-shadow: 0 0px 10px 0 rgb(18 29 39 / 16%);
+ }
+
+ .select-country-area .container .card {
+
+     padding: .2em .2em .2em;
+     border-radius: .5em;
+     text-align: center;
+     box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.2);
+ }
+
+ .select-country-area .container .card:hover {
+
+     transform: translate(0px, -10px);
+     transition-duration: 1s, 3s;
+
+
+
+ }
+  .select-country-area .container .card-body{
+    padding-top: 30px;
+  }

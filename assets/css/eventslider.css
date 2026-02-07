@@ -1,0 +1,87 @@
+.carousel-inner .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner .card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.carousel-inner .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-inner .carousel-control-prev-icon{
+  
+  border-radius: 50%;
+  position: absolute;
+  right: 150px;
+}
+.carousel-inner .carousel-control-next-icon{
+  border-radius: 50%;
+  position: absolute;
+    left: 150px;
+}
+.carousel-inner .cards-wrapper .card {
+  padding: .2em .2em .9em .2em;
+  border-radius: .2em;
+  text-align: center;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.carousel-inner .square {
+  position: absolute;
+  left: 204px;
+  bottom: 34.5px;
+  height: 49.8px;
+  width: 50px;
+  background-color: #0098ff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.carousel-inner .square-calender {
+  position: absolute;
+    left: 114px;
+    bottom: 410px;
+    height: 40.8px;
+    width: 150px;
+    background-color: #0098ff;
+    border-radius: 5px;
+}
+.carousel-inner .calendericon{
+  position: absolute;
+  left: 10px;
+  top: 3px;
+}
+.carousel-inner .date{
+  position: absolute;
+  left: 30px;
+    top: 5px;
+    color: white;
+}
+.carousel-inner .fa{
+  position: absolute;
+    left: 220px;
+    bottom: 50px;
+
+}
+.carousel-control-prev,
+.carousel-control-next 
+
+
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+.carousel-inner .card .btn{
+   background-color: black;
+   height: 50px;
+   width: 230px;
+   
+
+}
