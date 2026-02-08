@@ -55,7 +55,7 @@
         <!-- Main header -->
         <!-- Main header -->
         <header class="main-header header-style-five">
-            <div class="header-top-style4">
+            <div class="header-top-style4 d-none d-lg-block">
                 <div class="container">
                     <div class="outer-box clearfix">
                         <div class="header-top-left-style4 pull-left">
@@ -67,18 +67,10 @@
                         <div class="header-top-right-style4 pull-right">
                             <div class="header-social-link-style4">
                                 <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/share/18QyYBqy5y/?mibextid=wwXIfr"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/scandic-roots-d-o-o-318ab33a2"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/scandicroots?igsh=MTBlaW9oNW00MWg0cg%3D%3D&utm_source=qr "><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://youtube.com/@scandicroots"><i class="fa fa-youtube" aria-hidden="true"></i></a> 
-                                    </li>
+                                    <li><a href="https://www.facebook.com/share/18QyYBqy5y/?mibextid=wwXIfr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/scandic-roots-d-o-o-318ab33a2"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com/scandicroots?igsh=MTBlaW9oNW00MWg0cg%3D%3D&utm_source=qr "><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://youtube.com/@scandicroots"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div> 
                         </div>
@@ -282,7 +274,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 mt-3 mb-3">
                             <div class="card">
                                 <img src=".\assets\images\icon\construction.png" class="card-img-top" alt="Construction">
                                 <div class="card-body">
@@ -325,10 +317,12 @@
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="theme-carousel event-carousel owl-carousel owl-theme owl-dot-style1">
+                    <div class="theme-carousel event-carousel owl-carousel owl-theme owl-dot-style1"
+                                                 data-options='{"loop":true, "margin":40, "autoheight":true, "nav":false, "dots":true, "autoplay":true, "stagePadding":15, "autoplayTimeout":10000, "smartSpeed":700, "responsive":{ "0":{"items": "1"}, "500":{"items": "1"}, "767":{"items": "2"}, "1199":{"items": "3"}, "1600":{"items": "3"} }}'>
+
                         
                       
-                        <div class="single-visa-box m-3">
+                        <div class="single-visa-box ">
                             <a href="shipbuilders.html">
                             <div class="img-holder">
                                 <div class="inner">
@@ -346,7 +340,7 @@
                         <!--End Single Visa Box-->
                         
                         <!--Start Single Visa Box - Construction-->
-                        <div class="single-visa-box m-3">
+                        <div class="single-visa-box ">
                             <a href="construction.html">
                             <div class="img-holder">
                                 <div class="inner">
@@ -364,7 +358,7 @@
                         <!--End Single Visa Box-->
 
                         <!--Start Single Visa Box - Truck & Trailer Drivers-->
-                        <div class="single-visa-box m-3">
+                        <div class="single-visa-box">
                             <a href="truckdrivers.html">
                             <div class="img-holder">
                                 <div class="inner">
@@ -420,62 +414,42 @@
 
         
 
-        <!-- Start Our Team Section -->
-        <section class="select-country-area" style="background-image: url(assets/images/parallax-background/select-country-bg.jpg); padding: 300px 0 80px;">
+       <!-- Start Our Team Section -->
+        <section class="select-country-area" style="background-image: url(assets/images/parallax-background/select-country-bg.jpg); padding: 100px 0 80px;">
             <div class="container">
-                <div class="sec-title text-center">
+                <div class="sec-title text-center mb-5" style="padding-top: 200px;">
                     <h3>OUR TEAM</h3>
                     <h2>Meet The Team</h2>
                 </div>
 
-                <div class="row justify-content-center">
-                    <!-- Team Member 1 -->
-                    <div class="col-lg-4 col-md-6 mb-5">
-                        <div class="card text-center border-0 shadow-sm" style="max-width: 280px; margin: 0 auto; min-height: 320px; display: flex; flex-direction: column; justify-content: space-between;">
-                            <img class="card-img-top rounded-circle mx-auto mt-4" 
-                                src="assets/images/team/team1.jpg" 
-                                alt="Bianka Bittlingmeier" 
-                                style="width: 140px; height: 140px; object-fit: cover;">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title mb-1">Bianka Bittlingmeier</h5>
-                                <p class="card-text text-muted small mb-2">Business Development Manager</p>
-                                <p class="card-text text-muted small">bianka@scandicroot.com</p>
+                <div class="row justify-content-center" style="padding: 0;">
+                    <div class="col-lg-8 col-md-10">
+                        <!-- Team Member List -->
+                        <div class="team-list">
+                            <!-- Member 1 -->
+                            <div class="team-member text-center mb-5 pb-4 border-bottom">
+                                <h4 class="mb-1 fw-bold text-light">Bianka Bittlingmeier</h4>
+                                <p class="text-muted mb-2">Business Development Manager</p>
+                                <p class="small mb-0">
+                                    <a href="mailto:bianka@scandicroot.com" class="text-primary">bianka@scandicroot.com</a>
+                                </p>
                             </div>
-                        </div>
-                    </div>
 
-                    <!-- Team Member 2 -->
-                    <div class="col-lg-4 col-md-6 mb-5">
-                        <div class="card text-center border-0 shadow-sm" style="max-width: 280px; margin: 0 auto; min-height: 320px; display: flex; flex-direction: column; justify-content: space-between;">
-                            <img class="card-img-top rounded-circle mx-auto mt-4" 
-                                src="assets/images/team/team2.jpg" 
-                                alt="Sandis Siničenko" 
-                                style="width: 140px; height: 140px; object-fit: cover;">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title mb-1">Sandis Siničenko</h5>
-                                <p class="card-text text-muted small mb-2">Relationship manager</p>
-                                <p class="card-text text-muted small">info@scandicroot.com</p>
+                            <!-- Member 2 -->
+                            <div class="team-member text-center mb-5 pb-4 border-bottom">
+                                <h4 class="mb-1 fw-bold text-light">Sandis Siničenko</h4>
+                                <p class="text-muted mb-2">Relationship Manager</p>
+                                <p class="small mb-0">
+                                    <a href="mailto:info@scandicroot.com" class="text-primary">info@scandicroot.com</a>
+                                </p>
                             </div>
-                        </div>
-                    </div>
 
-                    <!-- Team Member 3 -->
-                    <div class="col-lg-4 col-md-6 mb-5">
-                        <div class="card text-center border-0 shadow-sm" style="max-width: 280px; margin: 0 auto; min-height: 320px; display: flex; flex-direction: column; justify-content: space-between;">
-                            <img class="card-img-top rounded-circle mx-auto mt-4" 
-                                src="assets/images/team/team3.jpg" 
-                                alt="Vinu Mohan Poyilil" 
-                                style="width: 140px; height: 140px; object-fit: cover;">
-                            <div class="card-body pt-3 pb-4">
-                                <h5 class="card-title mb-1">Vinu Mohan Poyilil</h5>
-                                <p class="card-text text-muted small mb-2">Director</p>
-                                <p class="card-text text-muted small">vinu@scandicroot.com</p>
-                            </div>
+                            
                         </div>
+
+                    
                     </div>
                 </div>
-
-                
             </div>
         </section>
         <!-- End Our Team Section -->
@@ -484,16 +458,13 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <!-- Logo on left (or center on mobile) -->
-               <a href="https://www.hireup-international.com" 
-                           target="_blank" 
-                           rel="noopener noreferrer" 
-                           >
+               
                            
                                 <img src="assets/images/resources/partnerlogo.PNG" 
                                     alt="Hire Up Group" 
                                     style="max-height: 120px; width: auto;">
                             
-                 </a>   
+                  
 
                 <!-- Text and link on right -->
                 <div class="col-lg-8 col-md-7">
@@ -545,7 +516,7 @@
                                     <div class="inner-contant">
                                         <ul>
                                             <li>Scandic Roots Speaks</li>
-                                            <li>We, Scandic Roots, have business relationship managers who are native speakers of German, Latvian, Ukrainian, Russian, Swedish, Dutch (NL), and English, ensuring clear and effective communication.</li>
+                                            We, Scandic Roots, have business relationship managers who are native speakers of German, Latvian, Ukrainian, Russian, Swedish, Dutch (NL), and English, ensuring clear and effective communication.
                                             <li>Full On-Site Interview Support</li>
                                             <li>We provide complete assistance for European clients traveling to India for worker interviews, including travel, accommodation, and local coordination.</li>
                                         </ul>
