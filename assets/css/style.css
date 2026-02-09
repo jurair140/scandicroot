@@ -9396,3 +9396,6 @@ select:focus {
 .my-float{
 	margin-top:16px;
 }
+#cookie-accept-all{
+    margin-right: 5px;
+}
